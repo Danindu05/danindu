@@ -11,6 +11,7 @@
 
 ## 🛠️ Tech Stack 
 - **Astro**
+- **CSS**
 - **TailwindCSS**
 - **GSAP**
 
