@@ -1,13 +1,4 @@
-/*
-  script-fixed-v2.js — robust, self-healing init for your portfolio
-  - Works whether GSAP/ScrollTrigger/MotionPath are preloaded or not (auto-loads if missing)
-  - Guards all DOM lookups (no crashes if an element is absent)
-  - Keeps your original behaviors (glows, scroll anims, CLI, mobile menu, smooth scroll, contact form)
 
-  Usage (Astro): place in /public and load with
-    <script defer src="/script.js"></script>
-  OR rename this file to script.js inside /public.
-*/
 (function () {
   // ---------- Small helpers ----------
   function onReady(fn) {
